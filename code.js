@@ -4,6 +4,7 @@ let result = sendMessage(
     (result) => { console.log(result) }
 );
 
+
 function sendMessage(userId, messageId, callback)
 {
     getUser(userId, (user1) => {

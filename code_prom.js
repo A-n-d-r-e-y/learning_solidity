@@ -20,6 +20,8 @@ function sendMessage(userId, messageId)
     });
 }
 
+
+
 function getUser(userId)
 {
     if (userId == 'AM') return new Promise((resolve, reject) => resolve('Morozov'));
